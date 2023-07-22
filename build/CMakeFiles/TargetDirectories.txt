@@ -1,0 +1,6 @@
+/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/CMakeFiles/HMS.dir
+/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/CMakeFiles/edit_cache.dir
+/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/CMakeFiles/rebuild_cache.dir
+/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib/CMakeFiles/lib.dir
+/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib/CMakeFiles/edit_cache.dir
+/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib/CMakeFiles/rebuild_cache.dir
