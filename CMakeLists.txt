@@ -7,6 +7,7 @@ else()
     cmake_policy(VERSION 3.27)
 endif()
 
+set(CMAKE_CXX_STANDARD 11)
 
 # Get rid of warnings
 add_definitions(-w)
@@ -24,7 +25,15 @@ add_executable(${PROJECT_NAME} main.cpp)
 
 
 # Here, we don't need to include full path in .cpp files
-include_directories(includes/ includes/inventory includes/lib includes/licensure includes/people includes/schedule)
+include_directories(includes/
+                        includes/inventory
+                        includes/lib
+                            includes/lib/prettyText
+                            includes/lib/utils
+                        includes/licensure
+                        includes/people
+                        includes/schedule
+                    )
 
 
 # # Include CMake file from "src" directory, allowing creation of src target

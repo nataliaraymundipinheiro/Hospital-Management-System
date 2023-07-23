@@ -69,10 +69,38 @@ include lib/CMakeFiles/lib.dir/progress.make
 # Include the compile flags for this target's objects.
 include lib/CMakeFiles/lib.dir/flags.make
 
+lib/CMakeFiles/lib.dir/Address.cpp.o: lib/CMakeFiles/lib.dir/flags.make
+lib/CMakeFiles/lib.dir/Address.cpp.o: /Users/nataliaraymundipinheiro/Documents/Hospital\ Management\ System/lib/Address.cpp
+lib/CMakeFiles/lib.dir/Address.cpp.o: lib/CMakeFiles/lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/CMakeFiles/lib.dir/Address.cpp.o"
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/lib.dir/Address.cpp.o -MF CMakeFiles/lib.dir/Address.cpp.o.d -o CMakeFiles/lib.dir/Address.cpp.o -c "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/lib/Address.cpp"
+
+lib/CMakeFiles/lib.dir/Address.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lib.dir/Address.cpp.i"
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/lib/Address.cpp" > CMakeFiles/lib.dir/Address.cpp.i
+
+lib/CMakeFiles/lib.dir/Address.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lib.dir/Address.cpp.s"
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/lib/Address.cpp" -o CMakeFiles/lib.dir/Address.cpp.s
+
+lib/CMakeFiles/lib.dir/Contact.cpp.o: lib/CMakeFiles/lib.dir/flags.make
+lib/CMakeFiles/lib.dir/Contact.cpp.o: /Users/nataliaraymundipinheiro/Documents/Hospital\ Management\ System/lib/Contact.cpp
+lib/CMakeFiles/lib.dir/Contact.cpp.o: lib/CMakeFiles/lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/CMakeFiles/lib.dir/Contact.cpp.o"
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/lib.dir/Contact.cpp.o -MF CMakeFiles/lib.dir/Contact.cpp.o.d -o CMakeFiles/lib.dir/Contact.cpp.o -c "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/lib/Contact.cpp"
+
+lib/CMakeFiles/lib.dir/Contact.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lib.dir/Contact.cpp.i"
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/lib/Contact.cpp" > CMakeFiles/lib.dir/Contact.cpp.i
+
+lib/CMakeFiles/lib.dir/Contact.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lib.dir/Contact.cpp.s"
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/lib/Contact.cpp" -o CMakeFiles/lib.dir/Contact.cpp.s
+
 lib/CMakeFiles/lib.dir/Date.cpp.o: lib/CMakeFiles/lib.dir/flags.make
 lib/CMakeFiles/lib.dir/Date.cpp.o: /Users/nataliaraymundipinheiro/Documents/Hospital\ Management\ System/lib/Date.cpp
 lib/CMakeFiles/lib.dir/Date.cpp.o: lib/CMakeFiles/lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/CMakeFiles/lib.dir/Date.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lib/CMakeFiles/lib.dir/Date.cpp.o"
 	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/lib.dir/Date.cpp.o -MF CMakeFiles/lib.dir/Date.cpp.o.d -o CMakeFiles/lib.dir/Date.cpp.o -c "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/lib/Date.cpp"
 
 lib/CMakeFiles/lib.dir/Date.cpp.i: cmake_force
@@ -83,10 +111,80 @@ lib/CMakeFiles/lib.dir/Date.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lib.dir/Date.cpp.s"
 	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/lib/Date.cpp" -o CMakeFiles/lib.dir/Date.cpp.s
 
+lib/CMakeFiles/lib.dir/Email.cpp.o: lib/CMakeFiles/lib.dir/flags.make
+lib/CMakeFiles/lib.dir/Email.cpp.o: /Users/nataliaraymundipinheiro/Documents/Hospital\ Management\ System/lib/Email.cpp
+lib/CMakeFiles/lib.dir/Email.cpp.o: lib/CMakeFiles/lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lib/CMakeFiles/lib.dir/Email.cpp.o"
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/lib.dir/Email.cpp.o -MF CMakeFiles/lib.dir/Email.cpp.o.d -o CMakeFiles/lib.dir/Email.cpp.o -c "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/lib/Email.cpp"
+
+lib/CMakeFiles/lib.dir/Email.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lib.dir/Email.cpp.i"
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/lib/Email.cpp" > CMakeFiles/lib.dir/Email.cpp.i
+
+lib/CMakeFiles/lib.dir/Email.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lib.dir/Email.cpp.s"
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/lib/Email.cpp" -o CMakeFiles/lib.dir/Email.cpp.s
+
+lib/CMakeFiles/lib.dir/Identification.cpp.o: lib/CMakeFiles/lib.dir/flags.make
+lib/CMakeFiles/lib.dir/Identification.cpp.o: /Users/nataliaraymundipinheiro/Documents/Hospital\ Management\ System/lib/Identification.cpp
+lib/CMakeFiles/lib.dir/Identification.cpp.o: lib/CMakeFiles/lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lib/CMakeFiles/lib.dir/Identification.cpp.o"
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/lib.dir/Identification.cpp.o -MF CMakeFiles/lib.dir/Identification.cpp.o.d -o CMakeFiles/lib.dir/Identification.cpp.o -c "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/lib/Identification.cpp"
+
+lib/CMakeFiles/lib.dir/Identification.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lib.dir/Identification.cpp.i"
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/lib/Identification.cpp" > CMakeFiles/lib.dir/Identification.cpp.i
+
+lib/CMakeFiles/lib.dir/Identification.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lib.dir/Identification.cpp.s"
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/lib/Identification.cpp" -o CMakeFiles/lib.dir/Identification.cpp.s
+
+lib/CMakeFiles/lib.dir/Insurance.cpp.o: lib/CMakeFiles/lib.dir/flags.make
+lib/CMakeFiles/lib.dir/Insurance.cpp.o: /Users/nataliaraymundipinheiro/Documents/Hospital\ Management\ System/lib/Insurance.cpp
+lib/CMakeFiles/lib.dir/Insurance.cpp.o: lib/CMakeFiles/lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object lib/CMakeFiles/lib.dir/Insurance.cpp.o"
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/lib.dir/Insurance.cpp.o -MF CMakeFiles/lib.dir/Insurance.cpp.o.d -o CMakeFiles/lib.dir/Insurance.cpp.o -c "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/lib/Insurance.cpp"
+
+lib/CMakeFiles/lib.dir/Insurance.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lib.dir/Insurance.cpp.i"
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/lib/Insurance.cpp" > CMakeFiles/lib.dir/Insurance.cpp.i
+
+lib/CMakeFiles/lib.dir/Insurance.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lib.dir/Insurance.cpp.s"
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/lib/Insurance.cpp" -o CMakeFiles/lib.dir/Insurance.cpp.s
+
+lib/CMakeFiles/lib.dir/MedicalHistory.cpp.o: lib/CMakeFiles/lib.dir/flags.make
+lib/CMakeFiles/lib.dir/MedicalHistory.cpp.o: /Users/nataliaraymundipinheiro/Documents/Hospital\ Management\ System/lib/MedicalHistory.cpp
+lib/CMakeFiles/lib.dir/MedicalHistory.cpp.o: lib/CMakeFiles/lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object lib/CMakeFiles/lib.dir/MedicalHistory.cpp.o"
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/lib.dir/MedicalHistory.cpp.o -MF CMakeFiles/lib.dir/MedicalHistory.cpp.o.d -o CMakeFiles/lib.dir/MedicalHistory.cpp.o -c "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/lib/MedicalHistory.cpp"
+
+lib/CMakeFiles/lib.dir/MedicalHistory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lib.dir/MedicalHistory.cpp.i"
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/lib/MedicalHistory.cpp" > CMakeFiles/lib.dir/MedicalHistory.cpp.i
+
+lib/CMakeFiles/lib.dir/MedicalHistory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lib.dir/MedicalHistory.cpp.s"
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/lib/MedicalHistory.cpp" -o CMakeFiles/lib.dir/MedicalHistory.cpp.s
+
+lib/CMakeFiles/lib.dir/Role.cpp.o: lib/CMakeFiles/lib.dir/flags.make
+lib/CMakeFiles/lib.dir/Role.cpp.o: /Users/nataliaraymundipinheiro/Documents/Hospital\ Management\ System/lib/Role.cpp
+lib/CMakeFiles/lib.dir/Role.cpp.o: lib/CMakeFiles/lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object lib/CMakeFiles/lib.dir/Role.cpp.o"
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/lib.dir/Role.cpp.o -MF CMakeFiles/lib.dir/Role.cpp.o.d -o CMakeFiles/lib.dir/Role.cpp.o -c "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/lib/Role.cpp"
+
+lib/CMakeFiles/lib.dir/Role.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lib.dir/Role.cpp.i"
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/lib/Role.cpp" > CMakeFiles/lib.dir/Role.cpp.i
+
+lib/CMakeFiles/lib.dir/Role.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lib.dir/Role.cpp.s"
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/lib/Role.cpp" -o CMakeFiles/lib.dir/Role.cpp.s
+
 lib/CMakeFiles/lib.dir/Sex.cpp.o: lib/CMakeFiles/lib.dir/flags.make
 lib/CMakeFiles/lib.dir/Sex.cpp.o: /Users/nataliaraymundipinheiro/Documents/Hospital\ Management\ System/lib/Sex.cpp
 lib/CMakeFiles/lib.dir/Sex.cpp.o: lib/CMakeFiles/lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/CMakeFiles/lib.dir/Sex.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object lib/CMakeFiles/lib.dir/Sex.cpp.o"
 	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/lib.dir/Sex.cpp.o -MF CMakeFiles/lib.dir/Sex.cpp.o.d -o CMakeFiles/lib.dir/Sex.cpp.o -c "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/lib/Sex.cpp"
 
 lib/CMakeFiles/lib.dir/Sex.cpp.i: cmake_force
@@ -97,19 +195,97 @@ lib/CMakeFiles/lib.dir/Sex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lib.dir/Sex.cpp.s"
 	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/lib/Sex.cpp" -o CMakeFiles/lib.dir/Sex.cpp.s
 
+lib/CMakeFiles/lib.dir/Telephone.cpp.o: lib/CMakeFiles/lib.dir/flags.make
+lib/CMakeFiles/lib.dir/Telephone.cpp.o: /Users/nataliaraymundipinheiro/Documents/Hospital\ Management\ System/lib/Telephone.cpp
+lib/CMakeFiles/lib.dir/Telephone.cpp.o: lib/CMakeFiles/lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object lib/CMakeFiles/lib.dir/Telephone.cpp.o"
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/lib.dir/Telephone.cpp.o -MF CMakeFiles/lib.dir/Telephone.cpp.o.d -o CMakeFiles/lib.dir/Telephone.cpp.o -c "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/lib/Telephone.cpp"
+
+lib/CMakeFiles/lib.dir/Telephone.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lib.dir/Telephone.cpp.i"
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/lib/Telephone.cpp" > CMakeFiles/lib.dir/Telephone.cpp.i
+
+lib/CMakeFiles/lib.dir/Telephone.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lib.dir/Telephone.cpp.s"
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/lib/Telephone.cpp" -o CMakeFiles/lib.dir/Telephone.cpp.s
+
+lib/CMakeFiles/lib.dir/prettyText/TextColor.cpp.o: lib/CMakeFiles/lib.dir/flags.make
+lib/CMakeFiles/lib.dir/prettyText/TextColor.cpp.o: /Users/nataliaraymundipinheiro/Documents/Hospital\ Management\ System/lib/prettyText/TextColor.cpp
+lib/CMakeFiles/lib.dir/prettyText/TextColor.cpp.o: lib/CMakeFiles/lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object lib/CMakeFiles/lib.dir/prettyText/TextColor.cpp.o"
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/lib.dir/prettyText/TextColor.cpp.o -MF CMakeFiles/lib.dir/prettyText/TextColor.cpp.o.d -o CMakeFiles/lib.dir/prettyText/TextColor.cpp.o -c "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/lib/prettyText/TextColor.cpp"
+
+lib/CMakeFiles/lib.dir/prettyText/TextColor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lib.dir/prettyText/TextColor.cpp.i"
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/lib/prettyText/TextColor.cpp" > CMakeFiles/lib.dir/prettyText/TextColor.cpp.i
+
+lib/CMakeFiles/lib.dir/prettyText/TextColor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lib.dir/prettyText/TextColor.cpp.s"
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/lib/prettyText/TextColor.cpp" -o CMakeFiles/lib.dir/prettyText/TextColor.cpp.s
+
+lib/CMakeFiles/lib.dir/utils/Roles.cpp.o: lib/CMakeFiles/lib.dir/flags.make
+lib/CMakeFiles/lib.dir/utils/Roles.cpp.o: /Users/nataliaraymundipinheiro/Documents/Hospital\ Management\ System/lib/utils/Roles.cpp
+lib/CMakeFiles/lib.dir/utils/Roles.cpp.o: lib/CMakeFiles/lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object lib/CMakeFiles/lib.dir/utils/Roles.cpp.o"
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/lib.dir/utils/Roles.cpp.o -MF CMakeFiles/lib.dir/utils/Roles.cpp.o.d -o CMakeFiles/lib.dir/utils/Roles.cpp.o -c "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/lib/utils/Roles.cpp"
+
+lib/CMakeFiles/lib.dir/utils/Roles.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lib.dir/utils/Roles.cpp.i"
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/lib/utils/Roles.cpp" > CMakeFiles/lib.dir/utils/Roles.cpp.i
+
+lib/CMakeFiles/lib.dir/utils/Roles.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lib.dir/utils/Roles.cpp.s"
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/lib/utils/Roles.cpp" -o CMakeFiles/lib.dir/utils/Roles.cpp.s
+
+lib/CMakeFiles/lib.dir/utils/Utils.cpp.o: lib/CMakeFiles/lib.dir/flags.make
+lib/CMakeFiles/lib.dir/utils/Utils.cpp.o: /Users/nataliaraymundipinheiro/Documents/Hospital\ Management\ System/lib/utils/Utils.cpp
+lib/CMakeFiles/lib.dir/utils/Utils.cpp.o: lib/CMakeFiles/lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object lib/CMakeFiles/lib.dir/utils/Utils.cpp.o"
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/lib.dir/utils/Utils.cpp.o -MF CMakeFiles/lib.dir/utils/Utils.cpp.o.d -o CMakeFiles/lib.dir/utils/Utils.cpp.o -c "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/lib/utils/Utils.cpp"
+
+lib/CMakeFiles/lib.dir/utils/Utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lib.dir/utils/Utils.cpp.i"
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/lib/utils/Utils.cpp" > CMakeFiles/lib.dir/utils/Utils.cpp.i
+
+lib/CMakeFiles/lib.dir/utils/Utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lib.dir/utils/Utils.cpp.s"
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/lib/utils/Utils.cpp" -o CMakeFiles/lib.dir/utils/Utils.cpp.s
+
 # Object files for target lib
 lib_OBJECTS = \
+"CMakeFiles/lib.dir/Address.cpp.o" \
+"CMakeFiles/lib.dir/Contact.cpp.o" \
 "CMakeFiles/lib.dir/Date.cpp.o" \
-"CMakeFiles/lib.dir/Sex.cpp.o"
+"CMakeFiles/lib.dir/Email.cpp.o" \
+"CMakeFiles/lib.dir/Identification.cpp.o" \
+"CMakeFiles/lib.dir/Insurance.cpp.o" \
+"CMakeFiles/lib.dir/MedicalHistory.cpp.o" \
+"CMakeFiles/lib.dir/Role.cpp.o" \
+"CMakeFiles/lib.dir/Sex.cpp.o" \
+"CMakeFiles/lib.dir/Telephone.cpp.o" \
+"CMakeFiles/lib.dir/prettyText/TextColor.cpp.o" \
+"CMakeFiles/lib.dir/utils/Roles.cpp.o" \
+"CMakeFiles/lib.dir/utils/Utils.cpp.o"
 
 # External object files for target lib
 lib_EXTERNAL_OBJECTS =
 
+lib/liblib.a: lib/CMakeFiles/lib.dir/Address.cpp.o
+lib/liblib.a: lib/CMakeFiles/lib.dir/Contact.cpp.o
 lib/liblib.a: lib/CMakeFiles/lib.dir/Date.cpp.o
+lib/liblib.a: lib/CMakeFiles/lib.dir/Email.cpp.o
+lib/liblib.a: lib/CMakeFiles/lib.dir/Identification.cpp.o
+lib/liblib.a: lib/CMakeFiles/lib.dir/Insurance.cpp.o
+lib/liblib.a: lib/CMakeFiles/lib.dir/MedicalHistory.cpp.o
+lib/liblib.a: lib/CMakeFiles/lib.dir/Role.cpp.o
 lib/liblib.a: lib/CMakeFiles/lib.dir/Sex.cpp.o
+lib/liblib.a: lib/CMakeFiles/lib.dir/Telephone.cpp.o
+lib/liblib.a: lib/CMakeFiles/lib.dir/prettyText/TextColor.cpp.o
+lib/liblib.a: lib/CMakeFiles/lib.dir/utils/Roles.cpp.o
+lib/liblib.a: lib/CMakeFiles/lib.dir/utils/Utils.cpp.o
 lib/liblib.a: lib/CMakeFiles/lib.dir/build.make
 lib/liblib.a: lib/CMakeFiles/lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library liblib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX static library liblib.a"
 	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && $(CMAKE_COMMAND) -P CMakeFiles/lib.dir/cmake_clean_target.cmake
 	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build/lib" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lib.dir/link.txt --verbose=$(VERBOSE)
 

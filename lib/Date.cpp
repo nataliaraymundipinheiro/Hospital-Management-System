@@ -95,6 +95,7 @@ string Date::DisplayDate() const {
     if (year == -1) { return "Date not specified."; }
     if (month == -1) { return "Date not specified."; }
     if (year == -1) { return "Date not specified."; }
+    
     string date;
 
     if (day < 10)   { date += '0' + to_string(day) + '/'; }   else { date += to_string(day) + '/'; }
@@ -105,7 +106,11 @@ string Date::DisplayDate() const {
 }
 
 string Date::DisplayTime() const {
-    string time = "";
+    if (hour == -1) { return "Date not specified."; }
+    if (minute == -1) { return "Date not specified."; }
+    if (second == -1) { return "Date not specified."; }
+    
+    string time;
 
     if (hour < 10)   { time += '0' + to_string(hour) + ':'; }   else { time += to_string(hour) + ':'; }
     if (minute < 10) { time += '0' + to_string(minute) + ':'; } else { time += to_string(minute) + ':'; }

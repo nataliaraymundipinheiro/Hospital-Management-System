@@ -130,6 +130,54 @@ lib/fast:
 	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/build
 .PHONY : lib/fast
 
+Address.o: Address.cpp.o
+.PHONY : Address.o
+
+# target to build an object file
+Address.cpp.o:
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/Address.cpp.o
+.PHONY : Address.cpp.o
+
+Address.i: Address.cpp.i
+.PHONY : Address.i
+
+# target to preprocess a source file
+Address.cpp.i:
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/Address.cpp.i
+.PHONY : Address.cpp.i
+
+Address.s: Address.cpp.s
+.PHONY : Address.s
+
+# target to generate assembly for a file
+Address.cpp.s:
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/Address.cpp.s
+.PHONY : Address.cpp.s
+
+Contact.o: Contact.cpp.o
+.PHONY : Contact.o
+
+# target to build an object file
+Contact.cpp.o:
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/Contact.cpp.o
+.PHONY : Contact.cpp.o
+
+Contact.i: Contact.cpp.i
+.PHONY : Contact.i
+
+# target to preprocess a source file
+Contact.cpp.i:
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/Contact.cpp.i
+.PHONY : Contact.cpp.i
+
+Contact.s: Contact.cpp.s
+.PHONY : Contact.s
+
+# target to generate assembly for a file
+Contact.cpp.s:
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/Contact.cpp.s
+.PHONY : Contact.cpp.s
+
 Date.o: Date.cpp.o
 .PHONY : Date.o
 
@@ -153,6 +201,126 @@ Date.s: Date.cpp.s
 Date.cpp.s:
 	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/Date.cpp.s
 .PHONY : Date.cpp.s
+
+Email.o: Email.cpp.o
+.PHONY : Email.o
+
+# target to build an object file
+Email.cpp.o:
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/Email.cpp.o
+.PHONY : Email.cpp.o
+
+Email.i: Email.cpp.i
+.PHONY : Email.i
+
+# target to preprocess a source file
+Email.cpp.i:
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/Email.cpp.i
+.PHONY : Email.cpp.i
+
+Email.s: Email.cpp.s
+.PHONY : Email.s
+
+# target to generate assembly for a file
+Email.cpp.s:
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/Email.cpp.s
+.PHONY : Email.cpp.s
+
+Identification.o: Identification.cpp.o
+.PHONY : Identification.o
+
+# target to build an object file
+Identification.cpp.o:
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/Identification.cpp.o
+.PHONY : Identification.cpp.o
+
+Identification.i: Identification.cpp.i
+.PHONY : Identification.i
+
+# target to preprocess a source file
+Identification.cpp.i:
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/Identification.cpp.i
+.PHONY : Identification.cpp.i
+
+Identification.s: Identification.cpp.s
+.PHONY : Identification.s
+
+# target to generate assembly for a file
+Identification.cpp.s:
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/Identification.cpp.s
+.PHONY : Identification.cpp.s
+
+Insurance.o: Insurance.cpp.o
+.PHONY : Insurance.o
+
+# target to build an object file
+Insurance.cpp.o:
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/Insurance.cpp.o
+.PHONY : Insurance.cpp.o
+
+Insurance.i: Insurance.cpp.i
+.PHONY : Insurance.i
+
+# target to preprocess a source file
+Insurance.cpp.i:
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/Insurance.cpp.i
+.PHONY : Insurance.cpp.i
+
+Insurance.s: Insurance.cpp.s
+.PHONY : Insurance.s
+
+# target to generate assembly for a file
+Insurance.cpp.s:
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/Insurance.cpp.s
+.PHONY : Insurance.cpp.s
+
+MedicalHistory.o: MedicalHistory.cpp.o
+.PHONY : MedicalHistory.o
+
+# target to build an object file
+MedicalHistory.cpp.o:
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/MedicalHistory.cpp.o
+.PHONY : MedicalHistory.cpp.o
+
+MedicalHistory.i: MedicalHistory.cpp.i
+.PHONY : MedicalHistory.i
+
+# target to preprocess a source file
+MedicalHistory.cpp.i:
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/MedicalHistory.cpp.i
+.PHONY : MedicalHistory.cpp.i
+
+MedicalHistory.s: MedicalHistory.cpp.s
+.PHONY : MedicalHistory.s
+
+# target to generate assembly for a file
+MedicalHistory.cpp.s:
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/MedicalHistory.cpp.s
+.PHONY : MedicalHistory.cpp.s
+
+Role.o: Role.cpp.o
+.PHONY : Role.o
+
+# target to build an object file
+Role.cpp.o:
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/Role.cpp.o
+.PHONY : Role.cpp.o
+
+Role.i: Role.cpp.i
+.PHONY : Role.i
+
+# target to preprocess a source file
+Role.cpp.i:
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/Role.cpp.i
+.PHONY : Role.cpp.i
+
+Role.s: Role.cpp.s
+.PHONY : Role.s
+
+# target to generate assembly for a file
+Role.cpp.s:
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/Role.cpp.s
+.PHONY : Role.cpp.s
 
 Sex.o: Sex.cpp.o
 .PHONY : Sex.o
@@ -178,6 +346,102 @@ Sex.cpp.s:
 	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/Sex.cpp.s
 .PHONY : Sex.cpp.s
 
+Telephone.o: Telephone.cpp.o
+.PHONY : Telephone.o
+
+# target to build an object file
+Telephone.cpp.o:
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/Telephone.cpp.o
+.PHONY : Telephone.cpp.o
+
+Telephone.i: Telephone.cpp.i
+.PHONY : Telephone.i
+
+# target to preprocess a source file
+Telephone.cpp.i:
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/Telephone.cpp.i
+.PHONY : Telephone.cpp.i
+
+Telephone.s: Telephone.cpp.s
+.PHONY : Telephone.s
+
+# target to generate assembly for a file
+Telephone.cpp.s:
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/Telephone.cpp.s
+.PHONY : Telephone.cpp.s
+
+prettyText/TextColor.o: prettyText/TextColor.cpp.o
+.PHONY : prettyText/TextColor.o
+
+# target to build an object file
+prettyText/TextColor.cpp.o:
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/prettyText/TextColor.cpp.o
+.PHONY : prettyText/TextColor.cpp.o
+
+prettyText/TextColor.i: prettyText/TextColor.cpp.i
+.PHONY : prettyText/TextColor.i
+
+# target to preprocess a source file
+prettyText/TextColor.cpp.i:
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/prettyText/TextColor.cpp.i
+.PHONY : prettyText/TextColor.cpp.i
+
+prettyText/TextColor.s: prettyText/TextColor.cpp.s
+.PHONY : prettyText/TextColor.s
+
+# target to generate assembly for a file
+prettyText/TextColor.cpp.s:
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/prettyText/TextColor.cpp.s
+.PHONY : prettyText/TextColor.cpp.s
+
+utils/Roles.o: utils/Roles.cpp.o
+.PHONY : utils/Roles.o
+
+# target to build an object file
+utils/Roles.cpp.o:
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/utils/Roles.cpp.o
+.PHONY : utils/Roles.cpp.o
+
+utils/Roles.i: utils/Roles.cpp.i
+.PHONY : utils/Roles.i
+
+# target to preprocess a source file
+utils/Roles.cpp.i:
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/utils/Roles.cpp.i
+.PHONY : utils/Roles.cpp.i
+
+utils/Roles.s: utils/Roles.cpp.s
+.PHONY : utils/Roles.s
+
+# target to generate assembly for a file
+utils/Roles.cpp.s:
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/utils/Roles.cpp.s
+.PHONY : utils/Roles.cpp.s
+
+utils/Utils.o: utils/Utils.cpp.o
+.PHONY : utils/Utils.o
+
+# target to build an object file
+utils/Utils.cpp.o:
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/utils/Utils.cpp.o
+.PHONY : utils/Utils.cpp.o
+
+utils/Utils.i: utils/Utils.cpp.i
+.PHONY : utils/Utils.i
+
+# target to preprocess a source file
+utils/Utils.cpp.i:
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/utils/Utils.cpp.i
+.PHONY : utils/Utils.cpp.i
+
+utils/Utils.s: utils/Utils.cpp.s
+.PHONY : utils/Utils.s
+
+# target to generate assembly for a file
+utils/Utils.cpp.s:
+	cd "/Users/nataliaraymundipinheiro/Documents/Hospital Management System/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/utils/Utils.cpp.s
+.PHONY : utils/Utils.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -187,12 +451,45 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... lib"
+	@echo "... Address.o"
+	@echo "... Address.i"
+	@echo "... Address.s"
+	@echo "... Contact.o"
+	@echo "... Contact.i"
+	@echo "... Contact.s"
 	@echo "... Date.o"
 	@echo "... Date.i"
 	@echo "... Date.s"
+	@echo "... Email.o"
+	@echo "... Email.i"
+	@echo "... Email.s"
+	@echo "... Identification.o"
+	@echo "... Identification.i"
+	@echo "... Identification.s"
+	@echo "... Insurance.o"
+	@echo "... Insurance.i"
+	@echo "... Insurance.s"
+	@echo "... MedicalHistory.o"
+	@echo "... MedicalHistory.i"
+	@echo "... MedicalHistory.s"
+	@echo "... Role.o"
+	@echo "... Role.i"
+	@echo "... Role.s"
 	@echo "... Sex.o"
 	@echo "... Sex.i"
 	@echo "... Sex.s"
+	@echo "... Telephone.o"
+	@echo "... Telephone.i"
+	@echo "... Telephone.s"
+	@echo "... prettyText/TextColor.o"
+	@echo "... prettyText/TextColor.i"
+	@echo "... prettyText/TextColor.s"
+	@echo "... utils/Roles.o"
+	@echo "... utils/Roles.i"
+	@echo "... utils/Roles.s"
+	@echo "... utils/Utils.o"
+	@echo "... utils/Utils.i"
+	@echo "... utils/Utils.s"
 .PHONY : help
 
 

@@ -15,8 +15,10 @@ public:
 
 private:
     
+    // Person* patient;
+
     Date* admission;
-    Date* discharge ;
+    Date* discharge;
 };
 
 #endif

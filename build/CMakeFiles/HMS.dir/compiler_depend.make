@@ -728,13 +728,20 @@ CMakeFiles/HMS.dir/main.cpp.o: /Users/nataliaraymundipinheiro/Documents/Hospital
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_time.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_wchar.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_wctype.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/__stddef_max_align_t.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/limits.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/stdarg.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/stdint.h \
+  /Users/nataliaraymundipinheiro/Documents/Hospital\ Management\ System/includes/lib/Address.hpp \
   /Users/nataliaraymundipinheiro/Documents/Hospital\ Management\ System/includes/lib/Date.hpp \
-  /Users/nataliaraymundipinheiro/Documents/Hospital\ Management\ System/includes/lib/Sex.hpp
+  /Users/nataliaraymundipinheiro/Documents/Hospital\ Management\ System/includes/lib/Role.hpp \
+  /Users/nataliaraymundipinheiro/Documents/Hospital\ Management\ System/includes/lib/Sex.hpp \
+  /Users/nataliaraymundipinheiro/Documents/Hospital\ Management\ System/includes/lib/Telephone.hpp \
+  /Users/nataliaraymundipinheiro/Documents/Hospital\ Management\ System/includes/lib/prettyText/TextColor.hpp
 
+
+/Users/nataliaraymundipinheiro/Documents/Hospital\ Management\ System/includes/lib/Role.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/stddef.h:
 
@@ -831,6 +838,8 @@ CMakeFiles/HMS.dir/main.cpp.o: /Users/nataliaraymundipinheiro/Documents/Hospital
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_posix_availability.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/strings.h:
+
+/Users/nataliaraymundipinheiro/Documents/Hospital\ Management\ System/includes/lib/Address.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/stdlib.h:
 
@@ -1188,6 +1197,8 @@ CMakeFiles/HMS.dir/main.cpp.o: /Users/nataliaraymundipinheiro/Documents/Hospital
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__memory/allocator_arg_t.h:
 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/__stddef_max_align_t.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__memory/allocator.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/chrono:
@@ -1201,6 +1212,8 @@ CMakeFiles/HMS.dir/main.cpp.o: /Users/nataliaraymundipinheiro/Documents/Hospital
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/arm/_mcontext.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__mbstate_t.h:
+
+/Users/nataliaraymundipinheiro/Documents/Hospital\ Management\ System/includes/lib/Telephone.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_unsigned.h:
 
@@ -2099,6 +2112,8 @@ CMakeFiles/HMS.dir/main.cpp.o: /Users/nataliaraymundipinheiro/Documents/Hospital
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/max_element.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types/_uint16_t.h:
+
+/Users/nataliaraymundipinheiro/Documents/Hospital\ Management\ System/includes/lib/prettyText/TextColor.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/pthread.h:
 

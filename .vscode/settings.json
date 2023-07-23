@@ -7,4 +7,6 @@
     "exception": "cpp",
     "ostream": "cpp"
 }
+
+    "workbench.tree.indent": 30
 }

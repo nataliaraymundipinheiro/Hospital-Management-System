@@ -1,34 +1,66 @@
-#include <iostream>
-
+/**
+ * @file Sex.cpp
+ * @author Natalia Raymundi Pinheiro (nraymundipinheiro@hotmail.com)
+ * @brief Implementation of Sex class functions
+ * @version 0.1
+ * @date 2023-07-22
+ * 
+ */
 
 #include "Sex.hpp"
 
-
-void Uppercase(string& _sex) {
-    for (int i = 0; i < _sex.length(); i++) { _sex[i] = toupper(_sex[i]); }
-}
+#include "TextColor.hpp"
+#include "Utils.hpp"
 
 
-Sex::Sex()
-{}
+#include <iostream>
+
+
+using std::cout;
+using std::endl;
+
+using TextColor::Red;
+using Utils::Uppercase;
+
+
+// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% //
+
+Sex::Sex() { }
+
+// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% //
 
 Sex::Sex(string _sex) {
+    
+    // Make all uppercase for consistency
     Uppercase(_sex);
 
-    try {
-        if (_sex == "MALE" || _sex == "FEMALE") { sex = _sex; }
-        else { throw _sex; }
-    } catch (string _catch) {
-        cout << "Invalid sex:" << _catch << endl;
+    // Must be one of the three:
+    if (_sex != "MALE" && _sex != "FEMALE" && _sex != "N/A") {
+        cout << Red("Invalid sex. Must be either 'MALE' or 'FEMALE'. ");
+        cout << Red("If you would prefer to not disclose, enter 'N/A'.") << endl;
+        return;
     }
-       
+    
+    // After passing all errors, it's safe to update sex
+    sex = _sex;
+
 }
 
-string Sex::SetSex(string _sex) {
-    try {
-        if (_sex == "MALE" || _sex == "FEMALE") { sex = _sex; }
-        else { throw _sex; }
-    } catch (string _catch) {
-        cout << "Invalid sex:" << _catch << endl;
+// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% //
+
+void Sex::SetSex(string _sex) {
+    
+    // Make all uppercase for consistency
+    Uppercase(_sex);
+
+    // Must be one of the three:
+    if (_sex != "MALE" && _sex != "FEMALE" && _sex != "N/A") {
+        cout << Red("Invalid sex. Must be either 'MALE' or 'FEMALE'. ");
+        cout << Red("If you would prefer to not disclose, enter 'N/A'.") << endl;
+        return;
     }
+    
+    // After passing all errors, it's safe to update sex
+    sex = _sex;
+
 }

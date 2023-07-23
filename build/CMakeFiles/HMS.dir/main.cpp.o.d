@@ -14,6 +14,7 @@ CMakeFiles/HMS.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/wchar.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/stddef.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/__stddef_max_align_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/wchar.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types.h \
@@ -732,4 +733,7 @@ CMakeFiles/HMS.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Users/nataliaraymundipinheiro/Documents/Hospital\ Management\ System/includes/lib/Address.hpp \
   /Users/nataliaraymundipinheiro/Documents/Hospital\ Management\ System/includes/lib/Date.hpp \
-  /Users/nataliaraymundipinheiro/Documents/Hospital\ Management\ System/includes/lib/Sex.hpp
+  /Users/nataliaraymundipinheiro/Documents/Hospital\ Management\ System/includes/lib/Role.hpp \
+  /Users/nataliaraymundipinheiro/Documents/Hospital\ Management\ System/includes/lib/Sex.hpp \
+  /Users/nataliaraymundipinheiro/Documents/Hospital\ Management\ System/includes/lib/Telephone.hpp \
+  /Users/nataliaraymundipinheiro/Documents/Hospital\ Management\ System/includes/lib/prettyText/TextColor.hpp
